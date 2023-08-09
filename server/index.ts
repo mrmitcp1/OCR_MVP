@@ -3,7 +3,7 @@ import cors from 'cors'
 import {AppDataSource} from "./src/models/data-source";
 import {Trips} from "./src/models/entity/Trips";
 import bodyParser from 'body-parser'
-import {TripRouter} from "./src/controllers/trip.router";
+import {TripRouter} from "./src/router/trip.router";
 
 
 AppDataSource.initialize()

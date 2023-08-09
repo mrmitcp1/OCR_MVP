@@ -1,5 +1,5 @@
 import express from "express";
-import TripController from "./Trip.controller";
+import TripController from "../controllers/Trip.controller";
 
 export const TripRouter = express.Router();
 
